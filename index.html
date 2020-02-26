@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="sidth=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<title>humayan</title>
+</head>
+
+<body>
+	<div id="navbar">
+		  <a class="active" href="javascript:void(0)">Md Humayan Faridi</a>
+		  <a href="javascript:void(0)">Publications</a>
+		  <a href="javascript:void(0)">Posts</a>
+		  <a href="javascript:void(0)">Experience</a>
+		  <a href="javascript:void(0)">Contact</a>
+		  <a href="javascript:void(0)">CV</a>
+		
+			<div class="search_box">
+				<input class="input_box" type="text" name="" placeholder="Search">
+				<a class="btn" href="#">
+					<i class="fa fa-search"></i>
+				</a>
+			</div>
+	</div>
+	<section class="section-a">
+		<div class="left">
+			<img src="humayan.jpg">
+			<h2>Md. Humayan Faridi</h2>
+			<p>Computer Science and Engineering</p>
+			<p><a href="https://www.wub.edu.bd/">World University of Bangladesh</a></p>
+			<p>
+				<a href="mailto:humayan.faridi92@gmail.com">
+				<i class="fa fa-envelope" style="font-size:36px"></i></a>
+			</p>
+		</div>
+		
+		<div class="right">
+			<h1>About Me</h1>
+			<p>I am a Ph.D. candidate with the Computational and Biological 
+			Learning group at the University of Cambridge, supervised by Dr José 
+			Miguel Hernández-Lobato and advised by Dr Richard Turner. My research
+			focuses on developing probabilistic models (typically parameterized 
+			by deep neural networks) and associated scalable approximate 
+			inference procedures.</p>
+			<p>I am particularly interested in developing deep probabilistic models
+			that capture structure existing in specific data modalities, and 
+			exhibit nice behaviours such as sample and parameter efficiency, 
+			generalization, and calibrated uncertainties. Much of my recent work 
+			has focused on meta-learning, which enables fast few-shot generalization.
+			Another theme in my research is modelling symmetries in the data, 
+			such as by incorporating translation or permutation equivariance.</p>
+			
+			<div class="education">
+				<div class="interest">
+					<h2>Interests</h2>
+					<ul>
+						<li>Probabilistic machine learning</li>
+						<li>Meta-learning and few-shot learning</li>
+						<li>Probabilistic Modelling and Inference</li>
+						<li>Symmetries and equivariance in machine learning</li>
+					</ul>
+				</div>
+				<div class="edu">
+					<h2>Education</h2>
+					<ul>
+						<li><i class="fa fa-graduation-cap" style="font-size:24px"></i> BSc in Engineering, 2017</li>
+						<p>World University of Bangladesh</p>
+						<li><i class="fa fa-graduation-cap" style="font-size:24px"></i> Higher Secondary School Certificate, 2010</li>
+						<p>Manda Momin Sahana College</p>
+						<li><i class="fa fa-graduation-cap" style="font-size:24px"></i> Secondary School Certificate, 2008</li>
+						<p>Panthakata High School</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="int_edu">
+		
+	</section>
+	
+	<footer>
+		
+	</footer>
+	
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		  } else {
+			navbar.classList.remove("sticky");
+		  }
+		}
+	</script>	
+</body>
+</html>
